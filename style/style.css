@@ -73,7 +73,18 @@ max-height: 19px;
   font-size: 28px;
   margin-left: 15px;
 }
+
 .language-EN{
   font-size: 35px;
   margin-left: 15px;
+}
+
+.heading-img{
+  width: 55px;
+  margin-bottom: -15px;
+  padding-right: 15px;
+}
+
+.boat-heading{
+  text-decoration: none;
 }
