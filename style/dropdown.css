@@ -39,4 +39,9 @@
 .drop-down-bar-button a:active{
     color: red;
 }
-
+.bar-button-1{
+    padding: 10px 15px;
+}
+.bar-button-2{
+    padding: 10px 15px;
+}
