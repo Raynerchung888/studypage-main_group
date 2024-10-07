@@ -38,6 +38,27 @@ max-height: 19px;
   text-decoration: none;
 }
 
+.H1-Main-Title-tc{
+  max-height: 19px;
+  }
+  
+.navbar-ul-tc{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color:#ffd900;
+    height: 25px;
+    margin-top: 30px;
+    
+  }
+.bar-button-tc a{
+    flex:1;
+  }
+  
+.bar-button-tc{
+    text-decoration: none;
+  }
+
 .main_footer_images{
   display: flex;
   flex-wrap: nowrap;
