@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ERB Yachting</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/dropdown.css">
     <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon">
 </head>
 <body>
@@ -21,10 +22,16 @@
           <div class="navbar-ul">
               <strong class="bar-button" id="menu_yacht" >Home</strong>
               <!-- <strong>​主頁</strong> -->
-              <a class="bar-button" id="menu_yacht" href="en/maintenance.html"><strong>Rent yacht</strong></a>
-              <!-- <strong>遊艇出租</strong> -->
-              <a class="bar-button" id="menu_yacht" href="en/service.html"><strong>Rent yacht service</strong></a>
-              <!-- <strong>遊艇服務</strong> -->
+              <div class="drop-down-bar-button" id="menu_yacht">
+                <button><strong>Rent yacht</strong></button>
+                <div class="bar-button-content">
+                  <a class="bar-button-1" id="menu_yacht" href="en/service.html"><strong>Rent yacht service</strong></a>
+                  <!-- <strong>遊艇服務</strong> -->  
+                  <a class="bar-button-2" id="menu_yacht" href="en/boat.html"><strong>Rent yacht boat</strong></a>
+                  <!-- <strong>遊艇船</strong> -->  
+                </div>
+            </div>
+              <!-- <strong>遊艇出租</strong> -->             
               <a class="bar-button" id="menu_yacht" href="en/contact.html"><strong>Contact us</strong></a>
               <!-- <strong>查詢</strong> -->
               <a class="bar-button" id="menu_yacht" href="en/about.html"><strong>About us</strong></a>
