@@ -1,0 +1,42 @@
+
+.drop-down-bar-button{
+    display: inline-block;
+}
+
+.drop-down-bar-button button{
+    background-color: hsl(51, 100%, 50%);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color: #0000d7;
+}
+
+.drop-down-bar-button a{
+    display: block;
+    color: #0000d7;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.drop-down-bar-button .bar-button-content{
+    display: none;
+    position: absolute;
+    background-color: hsl(51, 100%, 65%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsl(0, 0%, 0%, 0.8);
+}
+
+.drop-down-bar-button:hover .bar-button-content{
+    display: block;
+}
+.drop-down-bar-button:hover button{
+    background-color: hsl(51, 100%, 35%);
+}
+.drop-down-bar-button a:hover{
+    background-color: hsl(51, 100%, 95%);
+}
+.drop-down-bar-button a:active{
+    color: red;
+}
+
