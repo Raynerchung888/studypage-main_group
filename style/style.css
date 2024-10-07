@@ -55,6 +55,23 @@ max-height: 19px;
     text-decoration: none;
   }
 
+.navbar-ul-sc{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color:#ffd900;
+    height: 25px;
+    margin-top: 30px;
+    
+  }
+.bar-button-sc a{
+    flex:1;
+  }
+  
+.bar-button-sc{
+    text-decoration: none;
+  }
+
 .main_footer_images{
   display: flex;
   flex-wrap: nowrap;
