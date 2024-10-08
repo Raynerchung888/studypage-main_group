@@ -30,7 +30,7 @@
     display: block;
 }
 .drop-down-bar-button:hover button{
-    background-color: hsl(51, 100%, 35%);
+    color: green;
 }
 .drop-down-bar-button a:hover{
     background-color: hsl(51, 100%, 95%);
