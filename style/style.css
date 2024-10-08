@@ -170,6 +170,15 @@ text-decoration: none;
 .h1-heading{
 font-size: 2.125rem;
 font-weight: bold;
+color: #ffd900;
+}
+
+.h1-heading:hover{
+  color: white;
+}
+
+.h1-heading:active{
+  color: red;
 }
 
 .sitemap-heading-img{
