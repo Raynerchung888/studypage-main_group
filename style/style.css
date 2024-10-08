@@ -101,16 +101,18 @@ max-height: 19px;
   display: flex;
   flex-wrap: nowrap;
   float: right;
+  margin-right: 20px;
 }
 
 .language{
   font-size: 28px;
-  margin-left: 15px;
+
 }
 
 .language-EN{
-  font-size: 35px;
-  margin-left: 15px;
+  font-size: 25px;
+
+
 }
 
 .heading-img{
@@ -127,6 +129,7 @@ max-height: 19px;
   font-size: 2.125rem;
   font-weight: bold;
 }
+
 .sitemap-heading-img{
   padding-top: 5px;
   width: 35px;
