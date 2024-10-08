@@ -7,10 +7,7 @@ body {
     clear:both;
     text-align:center;
 }
-.return {
-    background-color:#FFA500;
-    text-align: center;
-}
+
 
 .main_title{
   background-color:#FFA500;
@@ -32,12 +29,54 @@ max-height: 19px;
 }
 .bar-button a{
   flex:1;
+
 }
 
 .bar-button{
   text-decoration: none;
 }
-  
+
+
+
+
+
+.navbar-ul a:hover{
+color: green;
+}
+
+.navbar-ul a{
+  color: #0000d7;
+}
+
+.navbar-ul a:active{
+  color: red;
+}
+
+.navbar-ul-tc a:hover{
+  color: green;
+}
+
+.navbar-ul-tc a{
+  color: #0000d7;
+}
+
+.navbar-ul-tc a:active{
+  color: red;
+}
+
+.navbar-ul-sc a:hover{
+  color: green;
+}
+
+.navbar-ul-sc a{
+  color: #0000d7;
+}
+
+.navbar-ul-sc a:active{
+  color: red;
+}
+
+
 .navbar-ul-tc{
     display: flex;
     flex-wrap: nowrap;
