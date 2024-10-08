@@ -84,6 +84,10 @@ color:#ffd900;
 
 }
 
+.language-drop-down-bar-button a:active{
+    color:#69fca6;
+ }
+
 .language-heading-img{
     padding-top: 5px;
     width: 35px;
@@ -128,4 +132,8 @@ color:#ffd900;
 .language-drop-down-bar-button-EN a:hover{
 color:#ffd900;
 
+}
+
+.language-drop-down-bar-button-EN a:active{
+    color:#69fca6;
 }
