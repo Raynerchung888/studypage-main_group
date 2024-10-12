@@ -1,5 +1,5 @@
 body {
-  background-color: blueviolet;
+  background: blueviolet;
 }
 
 .main_footer {
@@ -223,4 +223,13 @@ color: white;
 .sitemap-list li::before{
 content: "🛥️🌊";
 margin-right: 40px;
+}
+
+.main-two-img{
+display: inline;
+  width: 50%;
+  height: 50%;
+}
+#main-img{
+  float: left;
 }
