@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5501/en/contact.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERB Yachting</title>
+    <link rel="stylesheet" href="./ERB Yachting_files/style.css">
+    <link rel="shortcut icon" href="http://127.0.0.1:5501/favicon/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="language-bar">
+        <div class="language"><a href="http://127.0.0.1:5501/tc/contact.html">繁</a></div>
+        <div class="language"><a href="http://127.0.0.1:5501/sc/contact.html">簡</a></div>
+        <div class="language-EN">EN</div>
+      </div>
+      <span><a href="http://127.0.0.1:5501/index.html" class="boat-heading"><span><img src="./ERB Yachting_files/boat.png" alt="The world of ERB Yachting" class="heading-img"><span class="h1-heading">The world of ERB Yachting</span></span></a></span>
+      <div id="main_container" style="width:100%">
+        <div id="main_header" class="main_title">
+            <h1 class="H1-Main-Title">Contact us</h1>
+    
+            <div class="navbar">
+                <div class="navbar-ul">
+                    <a href="http://127.0.0.1:5501/en/index.html"><strong class="bar-button" id="menu_yacht">Home</strong></a>
+                    <!-- <strong>​主頁</strong> -->
+                    <a class="bar-button" id="menu_yacht" href="http://127.0.0.1:5501/en/maintenance.html"><strong>Rent yacht</strong></a>
+                    <!-- <strong>遊艇出租</strong> -->
+                    <a class="bar-button" id="menu_yacht" href="http://127.0.0.1:5501/en/service.html"><strong>Rent yacht service</strong></a>
+                    <!-- <strong>遊艇服務</strong> -->
+                    <strong class="bar-button" id="menu_yacht">Contact us</strong>
+                    <!-- <strong>查詢</strong> -->
+                    <a class="bar-button" id="menu_yacht" href="http://127.0.0.1:5501/en/about.html"><strong>About us</strong></a>
+                     <!-- <strong>關於我們</strong> -->
+                    <a class="bar-button" id="menu_yacht" href="http://127.0.0.1:5501/en/sitemap.html"><strong>Sitemap</strong></a>
+                    <!-- <strong>網站地圖</strong> -->
+                </div>
+
+        <form action="http://127.0.0.1:5501/en/index.php" method="post" enctype="multipart/form-data">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" minlength="6" maxlength="15" placeholder="First Name" required="">
+            
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" minlength="6" maxlength="15" placeholder="Last Name" required=""><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="example@example.com" required="">
+        
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" placeholder="852-1234-6789" pattern="[852]{3}-[0-9]{4}-[0-9]{4}" required=""><br>
+        
+            <label for="BookingDate">Booking date:</label>
+            <input type="date" id="BookingDate">
+
+            <label for="BookingTime">Booking time:</label>
+            <input type="time" id="BookingTime"><br>
+        
+            <label for="quantity">Number of guest:</label>
+            <input type="number" id="quantity" min="0" max="12" value="1">
+        
+            <label for="Depart-from">Where do you want to depart from?</label>
+            <select id="Depart-from">
+                <option value="visa">HK Island</option>
+                <option value="mastercard">Sai Kung</option>
+                <option value="other">Other(please specify)</option>
+            </select><br>
+        
+            <label for="comment">Tell us more about your boat event...</label><br>
+            <textarea id="comment:" rows="3" cols="25"></textarea><br>
+        
+            <input type="reset">
+            <input type="submit">
+        
+           </form>
+
+
+              <div class="main_footer">
+             <strong>By ERB Yachting @2024.</strong>
+             <div class="main_footer_images">
+                <div class="footer_image"><a href="https://www.w3.org/WAI/WCAG2AA-Conformance" target="_blank" title="Level Double-A conformance, W3C WAI Web Content Accessibility Guidelines 2.1"><img src="./ERB Yachting_files/wcag2.1AA-v.gif" alt="Level Double-A conformance, W3C WAI Web Content Accessibility Guidelines 2.1"></a></div>
+                <div class="footer_image"><a href="https://www.digitalpolicy.gov.hk/en/our_work/digital_government/digital_inclusion/accessibility/nurturing_expertise/" target="_blank" title="Web Accessibility Recognition Scheme"><img src="./ERB Yachting_files/wa_gold_logo.jpg" alt="Web Accessibility Recognition Scheme"></a></div>
+                <div class="footer_image" id="footer_image_special_logo"><a href="https://www.brandhk.gov.hk/en/" target="_blank" title="Brand Hong Kong"><img src="./ERB Yachting_files/logo_brandhk_en.png" alt="Brand Hong Kong"></a></div>
+              </div>
+          </div>
+      </div>
+      </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</div></body></html>
